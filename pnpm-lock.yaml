@@ -1,0 +1,23 @@
+lockfileVersion: 5.4
+
+specifiers:
+  picocolors: ^1.0.0
+  simple-git-hooks: ^2.7.0
+
+dependencies:
+  picocolors: 1.0.0
+
+devDependencies:
+  simple-git-hooks: 2.7.0
+
+packages:
+
+  /picocolors/1.0.0:
+    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
+    dev: false
+
+  /simple-git-hooks/2.7.0:
+    resolution: {integrity: sha512-nQe6ASMO9zn5/htIrU37xEIHGr9E6wikXelLbOeTcfsX2O++DHaVug7RSQoq+kO7DvZTH37WA5gW49hN9HTDmQ==}
+    hasBin: true
+    requiresBuild: true
+    dev: true

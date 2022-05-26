@@ -1,0 +1,36 @@
+{
+  "name": "@alexwei/commit-lint",
+  "version": "1.0.0",
+  "description": "Lint commit messages using Angular's commit convention.",
+  "main": "index.js",
+  "bin": {
+    "commit-lint": "bin/commit-lint.js"
+  },
+  "files": [
+    "bin",
+    "index.js"
+  ],
+  "keywords": [
+    "commit",
+    "lint"
+  ],
+  "author": "Alex Wei",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex8088/commit-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alex8088/commit-lint/issues"
+  },
+  "homepage": "https://github.com/alex8088/commit-lint#readme",
+  "simple-git-hooks": {
+    "commit-msg": "node index.js $1"
+  },
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "simple-git-hooks": "^2.7.0"
+  }
+}
